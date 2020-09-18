@@ -21,9 +21,11 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         let timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
             if let imageURL = URL(string: "https://picsum.photos/200/300") {
-                print(imageURL)
+                
                 self.viewModel.downloadImage(from: imageURL)
             }
         }
@@ -38,8 +40,14 @@ class ProfileViewController: UIViewController {
     
     private func render(_ state: UIImage) {
         
-            self.profileImageView.image = state
-            print(state.pngData())
+        let relay = PassthroughSubject<UIImage, Never>()
+
+        let subscription = relay
+            .sink { value in
+                self.profileImageView.image = value
+        }
+
+        relay.send(state)
         
     }
     
