@@ -16,6 +16,9 @@
 		F342A7DA25141D8000F94852 /* CustomPublisherDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342A7D925141D8000F94852 /* CustomPublisherDemoUITests.swift */; };
 		F342A7E825141D9100F94852 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342A7E725141D9000F94852 /* ProfileViewModel.swift */; };
 		F342A7EB251420DA00F94852 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342A7EA251420DA00F94852 /* ProfileViewController.swift */; };
+		F342A7FD25152DD500F94852 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342A7FC25152DD500F94852 /* Interactor.swift */; };
+		F342A7FF25152DFE00F94852 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342A7FE25152DFE00F94852 /* MainView.swift */; };
+		F342A80125152E1C00F94852 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342A80025152E1C00F94852 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		F342A7DB25141D8000F94852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F342A7E725141D9000F94852 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		F342A7EA251420DA00F94852 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F342A7FC25152DD500F94852 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		F342A7FE25152DFE00F94852 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F342A80025152E1C00F94852 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				F342A7E925141D9B00F94852 /* Profile */,
 				F342A7B725141D7D00F94852 /* AppDelegate.swift */,
 				F342A7B925141D7D00F94852 /* SceneDelegate.swift */,
+				F342A7FC25152DD500F94852 /* Interactor.swift */,
+				F342A7FE25152DFE00F94852 /* MainView.swift */,
+				F342A80025152E1C00F94852 /* CombineHelpers.swift */,
 				F342A7BD25141D7D00F94852 /* Main.storyboard */,
 				F342A7C025141D7F00F94852 /* Assets.xcassets */,
 				F342A7C225141D7F00F94852 /* LaunchScreen.storyboard */,
@@ -271,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F342A7B825141D7D00F94852 /* AppDelegate.swift in Sources */,
+				F342A7FF25152DFE00F94852 /* MainView.swift in Sources */,
+				F342A80125152E1C00F94852 /* CombineHelpers.swift in Sources */,
 				F342A7E825141D9100F94852 /* ProfileViewModel.swift in Sources */,
+				F342A7FD25152DD500F94852 /* Interactor.swift in Sources */,
 				F342A7EB251420DA00F94852 /* ProfileViewController.swift in Sources */,
 				F342A7BA25141D7D00F94852 /* SceneDelegate.swift in Sources */,
 			);
